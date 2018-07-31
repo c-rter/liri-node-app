@@ -135,6 +135,9 @@ function readTextFile() {
 
     fs.readFile("random.txt", "utf8", function(error, data) {
 
+        // replace initial nodeArgs with text content
+        // loop through text to properly parse the text with spaces
+        // run respective case loop again with text file instructed nodeArgs
       
         console.log(data);
       
